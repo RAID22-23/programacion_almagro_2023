@@ -1,6 +1,6 @@
 package javaucjc.bucles;
 
-public class EjemplosBuclesFor {
+public class EjemplosBuclesFor {  
 
 	public static void main(String[] args) {
 		
