@@ -11,7 +11,6 @@ public class Boton {
 	private String tamanio; 
 	
 	public Boton(String color, String forma) {
-		super();
 		this.color = color;
 		this.forma = forma;
 	}
