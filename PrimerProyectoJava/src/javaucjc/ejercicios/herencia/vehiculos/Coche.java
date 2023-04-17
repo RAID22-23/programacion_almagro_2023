@@ -33,6 +33,18 @@ public class Coche extends VehiculosMotorizados {
 		return "Coche [numPuertas=" + numPuertas + ", tipoCombustible=" + tipoCombustible + ", getNumPuertas()="
 				+ getNumPuertas() + ", getTipoCombustible()=" + getTipoCombustible() + "]";
 	}
+
+	@Override
+	public void acelerar() {
+		System.out.println("El coche "+this.getMatricula() + " esta acelerando");
+		
+	}
+
+	@Override
+	public void frenar() {
+		System.out.println("El coche "+this.getMatricula() + " esta acelerando");
+		
+	}
 	
 	
 

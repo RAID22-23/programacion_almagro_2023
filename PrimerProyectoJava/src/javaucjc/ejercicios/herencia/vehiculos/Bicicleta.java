@@ -28,6 +28,19 @@ public final class Bicicleta extends Vehiculo {
 				+ "]";
 	}
 
+	@Override
+	public void acelerar() {
+		System.out.println("La bicileta está acelerando");
+		
+	}
+
+	@Override
+	public void frenar() {
+		System.out.println("La bicileta está frenando");
+		
+	}
+
+	
 	
 	
 }

@@ -53,12 +53,17 @@ public abstract class Vehiculo {
 		return "Vehiculo [marca=" + marca + ", modelo=" + modelo + ", anioFabricacion=" + anioFabricacion + "]";
 	}
 
-	public void acelerar() {
-		System.out.println("El vehiculo con marca " + this.marca + " esta acelerando ");
-	}
 
-	public void frenar() {
-		System.out.println("El vehiculo con marca " + this.marca + " esta frenando ");
-	}
+	public abstract void acelerar();
+	
+	public abstract void frenar();
+	
+//	public void acelerar() {
+//		System.out.println("El vehiculo con marca " + this.marca + " esta acelerando ");
+//	}
+
+//	public void frenar() {
+//		System.out.println("El vehiculo con marca " + this.marca + " esta frenando ");
+//	}
 
 }

@@ -27,6 +27,16 @@ public class Moto extends VehiculosMotorizados {
 		System.out.println("La moto con matricula "+getMatricula());
 	}
 	
-	
+	@Override
+	public void acelerar() {
+		System.out.println("La moto "+this.getMatricula() + " esta acelerando");
+		
+	}
+
+	@Override
+	public void frenar() {
+		System.out.println("La moto "+this.getMatricula() + " esta acelerando");
+		
+	}
 
 }
