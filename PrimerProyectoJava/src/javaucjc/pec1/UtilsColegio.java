@@ -18,5 +18,15 @@ public class UtilsColegio {
 		
 		return alumnos;
 	}
+	
+	public static Aula[] generaAulas (int numAulas) {
+		Aula [] aulas = new Aula [numAulas];
+		for (int i=0;i<numAulas;i++) {
+			Aula aula = new Aula(1,1);
+			aulas[i] = aula;
+		}
+		
+		return aulas;
+	}
 
 }
