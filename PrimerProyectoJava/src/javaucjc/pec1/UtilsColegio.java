@@ -22,7 +22,7 @@ public class UtilsColegio {
 	public static Aula[] generaAulas (int numAulas) {
 		Aula [] aulas = new Aula [numAulas];
 		for (int i=0;i<numAulas;i++) {
-			Aula aula = new Aula(1,1);
+			Aula aula = new Aula(i+1,1);
 			aulas[i] = aula;
 		}
 		

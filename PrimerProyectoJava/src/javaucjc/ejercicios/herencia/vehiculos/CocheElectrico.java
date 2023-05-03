@@ -23,4 +23,9 @@ public final class CocheElectrico extends Coche {
 		System.out.println("El coche electrico con matricula "+ getMatricula() 
 		+ "está recargando");
 	}
+	
+	@Override
+	public void arrancar () {
+		System.out.println("El coche "+this.getMatricula() + " esta arrancando pulsando el botón");
+	}
 }

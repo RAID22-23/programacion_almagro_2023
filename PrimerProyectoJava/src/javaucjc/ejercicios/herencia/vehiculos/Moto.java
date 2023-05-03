@@ -39,4 +39,12 @@ public class Moto extends VehiculosMotorizados {
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Moto [cilindrada=" + cilindrada + ", matricula()=" 
+				+ getMatricula() + ", año de fabricacion: "
+				+ getAnioFabricacion() + "]";
+	}
+
+	
 }

@@ -23,11 +23,13 @@ public class Colegio {
 			if (asientoLibre!=-1) {
 				Alumno [] asientos = aula.getAsientos();
 				asientos[asientoLibre]= alumno;
+				
 				System.out.println("Alumno "+alumno.getNombre() + " asignado "+
-						" al aula "+ aula.getNumero());
+						" al aula "+ aula.getNumero() + " en la posicion " +asientoLibre);
+				break;
 			}else {
 				System.out.println("No hay asiento disponible para"
-						+ " el alumno "+alumno.getNombre());
+						+ " el alumno "+alumno.getNombre() + " en el aula "+aula.getNumero());
 			}
 		}
 		
