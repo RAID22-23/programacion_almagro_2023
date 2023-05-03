@@ -11,6 +11,8 @@ public class ClaseMain {
 		ch2.metodo1();
 		
 		
+		
+		
 	}
 
 }

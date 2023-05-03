@@ -5,8 +5,12 @@ public class Ordenador implements Insertable {
 	private String marca;
 	private String modelo;
 	
-	
-	
+	public Ordenador(String marca, String modelo) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+	}
+
 	public String getMarca() {
 		return marca;
 	}
@@ -28,15 +32,6 @@ public class Ordenador implements Insertable {
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
-
-
-
-	public Ordenador(String marca, String modelo) {
-		super();
-		this.marca = marca;
-		this.modelo = modelo;
-	}
-
 
 
 	@Override
