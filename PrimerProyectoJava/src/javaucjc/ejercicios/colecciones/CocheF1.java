@@ -1,5 +1,6 @@
 package javaucjc.ejercicios.colecciones;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class CocheF1 {
@@ -50,6 +51,17 @@ public class CocheF1 {
 	public void setPatrocinadores(List<String> patrocinadores) {
 		this.patrocinadores = patrocinadores;
 	}
+	public void addPatrocinador(String patrocinador) {
+		if (this.patrocinadores!=null) {
+			this.patrocinadores.add(patrocinador);
+		}else {
+			List<String> patrocinadores1 = Arrays.asList(patrocinador);
+			this.setPatrocinadores(patrocinadores1);
+		}
+	}
+	
+	
+	
 	public double getVelMaxima() {
 		return velMaxima;
 	}
