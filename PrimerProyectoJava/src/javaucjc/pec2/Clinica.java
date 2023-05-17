@@ -81,11 +81,12 @@ public class Clinica {
 			System.out.println("==========");
 			System.out.println("El paciente " + pacientesSala.get(j).getNombre() + " será atendido por el enfermero "
 					+ enfermero.getNombre());
-			enfermero.examinar(pacientesSala.get(j));
+			Paciente p = pacientesSala.get(j);
+			enfermero.examinar(p);
 
 			System.out.println("El paciente " + pacientesSala.get(j).getNombre() + " ahora será atendido por el medico "
 					+ medico.getNombre());
-			Boolean resultado = medico.atender();
+			Boolean resultado = medico.atender(p);
 
 			if (resultado = true) {
 				j++;

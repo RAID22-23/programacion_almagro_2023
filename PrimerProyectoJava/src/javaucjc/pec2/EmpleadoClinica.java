@@ -1,6 +1,6 @@
 package javaucjc.pec2;
 
-public class EmpleadoClinica extends Persona implements Fichable{
+public abstract class EmpleadoClinica extends Persona implements Fichable{
 	
 	private int id;
 	private int experiencia; //Años de experiencia

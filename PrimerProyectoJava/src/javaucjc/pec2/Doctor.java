@@ -20,7 +20,7 @@ public class Doctor  extends EmpleadoClinica{
 		this.especialidad = especialidad;
 	}
 	 //Creamos el metodo atender
-	public boolean atender() {
+	public boolean atender(Paciente paciente) {
 		 //Crearemos la variable enfermoPaciente que determina si el paciente esta enfermo o no
 		boolean  enfermoPaciente = false;
 		
@@ -30,10 +30,10 @@ public class Doctor  extends EmpleadoClinica{
 		
 		enfermoPaciente = decision;
 			
-		if(enfermoPaciente == true) {
-			System.out.println("El paciente esta enfermo debe ser ingresado");
+		if(enfermoPaciente) {
+			System.out.println("El paciente "+paciente.getNombre()+" esta enfermo debe ser ingresado");
 		}else{
-			System.out.println("El paciente no esta enfermo, se puede ir");
+			System.out.println("El paciente "+paciente.getNombre()+" no esta enfermo, se puede ir");
 			
 		}
 		

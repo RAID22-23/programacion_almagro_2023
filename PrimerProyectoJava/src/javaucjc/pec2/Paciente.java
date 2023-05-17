@@ -19,7 +19,8 @@ public class Paciente extends Persona{
 
 	@Override
 	public void comer() {
-		System.out.println("El paciente "+ this.getNombre() +" esta comiendo la calle");
+		System.out.println("El paciente "+ this.getNombre() 
+			+" esta comiendo la calle");
 	}
 
 	@Override
