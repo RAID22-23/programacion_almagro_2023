@@ -22,4 +22,11 @@ public final class SideCar extends Moto {
 		System.out.println("Desmontando el sidecar con matricula "+getMatricula());
 	}
 
+	@Override
+	public String toString() {
+		return "SideCar [tamanio=" + tamanio + "]";
+	}
+	
+	
+
 }

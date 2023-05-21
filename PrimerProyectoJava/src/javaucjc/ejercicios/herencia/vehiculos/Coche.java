@@ -28,10 +28,11 @@ public class Coche extends VehiculosMotorizados {
 		this.tipoCombustible = tipoCombustible;
 	}
 
+
+
 	@Override
 	public String toString() {
-		return "Coche [numPuertas=" + numPuertas + ", tipoCombustible=" + tipoCombustible + ", getNumPuertas()="
-				+ getNumPuertas() + ", getTipoCombustible()=" + getTipoCombustible() + "]";
+		return super.toString() + "Coche [numPuertas=" + numPuertas + ", tipoCombustible=" + tipoCombustible + "]";
 	}
 
 	@Override

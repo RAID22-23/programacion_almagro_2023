@@ -21,8 +21,6 @@ public class Ciudad {
 		Garaje garaje = new Garaje("Garaje1");
 		garaje.aparcar(vehiculos);
 	}
-	
-	
-	
+
 	
 }

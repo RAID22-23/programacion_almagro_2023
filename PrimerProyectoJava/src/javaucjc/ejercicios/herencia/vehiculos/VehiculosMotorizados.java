@@ -20,10 +20,17 @@ public abstract class VehiculosMotorizados extends Vehiculo {
 	}
 
 	public void arrancar() {
-		System.out.println("El vehículo con " + this.matricula + " está arrancando el motor");
+		System.out.println("El vehículo con " + this.matricula + " está arrancando el motor con llave");
 	}
 
 	public void parar() {
 		System.out.println("El vehículo con " + this.matricula + " está parando el motor");
 	}
+
+	@Override
+	public String toString() {
+		return "VehiculosMotorizados [matricula=" + matricula + "]";
+	}
+	
+	
 }
